@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,700');
+
+.tile-holder {
+    align-content: center;
+    justify-content: center;
+}
+
+.article-box {
+    width: inherit;
+    height: inherit;
+    word-break: break-word;
+    float: left;
+    background: #f1f1f1;
+    color: black;
+    padding-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 01);
+    justify-content: center;
+}
+
+.headline {
+    font-family: 'Spectral', serif;
+    font-style: bold;
+    font-size: 20px;
+}

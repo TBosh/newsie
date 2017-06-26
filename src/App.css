@@ -1,24 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Limelight");
+@import url("https://fonts.googleapis.com/css?family=Spectral:400,700");
+.search-font {
+  font-family: 'Limelight'; }
+
 .App {
-  text-align: center;
-}
+  text-align: center; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
+.background-img {
+  background-image: url("./components/assets/homePage2.jpg");
+  width: 100%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.homepage {
+  height: fit-content;
+  align-content: center;
+  background-color: #000;
+  height: 75px;
+  margin-bottom: 30px; }
+
+.landing-text-block {
+  padding-top: 77vh;
+  padding-left: 10px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  position: absolute; }
+
+.title-font {
+  font-family: 'Limelight';
+  font-size: 2.5em;
+  position: relative;
+  float: left;
   color: white;
-}
+  margin: 0; }
 
-.App-intro {
-  font-size: large;
-}
+.lesser-font {
+  font-family: 'Limelight';
+  font-size: 20px;
+  float: left;
+  color: white;
+  margin: 0; }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+.search-news {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.enter-search-news {
+  margin-top: 50px;
+  box-sizing: border-box;
+  font-size: 30px;
+  height: 45px;
+  padding-left: 10px;
+  width: 400px;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px black;
+  position: relative; }

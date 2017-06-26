@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight');
+.search-font {
+    font-family: 'Limelight';
+}
+
+
+.search-news {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.enter-search-news {
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    height: 45px;
+    padding-left: 10px;
+    width: 370px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 01);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+

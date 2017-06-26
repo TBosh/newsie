@@ -1,0 +1,23 @@
+#waterwheel-carousel {
+  width:350px;
+  height:600px;
+  position:relative;
+  clear:both;
+  overflow:hidden;
+  margin: 0 auto;
+}
+#waterwheel-carousel img {
+  visibility:hidden; /* hide images until carousel positions them */
+  cursor:pointer;
+}
+.results-parent {
+    overflow: hidden;
+    align-content: center;
+}
+.search-results {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    overflow: auto;
+   
+}
