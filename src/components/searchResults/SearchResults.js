@@ -6,7 +6,7 @@ import NewsPost from './NewsPost/NewsPost.js';
 
 class SearchResults extends Component {
     render() {
-        const newsPostList = this.props.resultsToPassToSearchResults.map((post, i) => {
+        let newsPostList = this.props.resultsToPassToSearchResults.map((post, i) => {
             return <NewsPost 
                         id={post.id}
                         sectionName={post.sectionName}
@@ -15,11 +15,11 @@ class SearchResults extends Component {
                         webPublicationDate={post.webPublicationDate}
                         key={i}
             />
-        }) 
+        })    
         return (
             <div className="results-parent">
-                <div className="search-results">
-                { newsPostList }
+                <div className="search-results"> 
+                    { newsPostList }
                 </div>
             </div>
         );
@@ -27,3 +27,5 @@ class SearchResults extends Component {
 }
 
 export default SearchResults;
+
+// { !newsPostList ? newsPostList = "Nothing to see here" : NewsPost }

@@ -1,8 +1,14 @@
+//googly fonts
 @import url('https://fonts.googleapis.com/css?family=Limelight');
 @import url('https://fonts.googleapis.com/css?family=Spectral:400,700');
 
+//font variables
+$headlines: 'Limelight';
+$articles:  'Spectral', serif;
+
+
 .search-font {
-    font-family: 'Limelight';
+    font-family: $headlines;
 }
 
 
@@ -32,8 +38,7 @@
 
 
 .landing-text-block {
-    padding-top: 77vh;
-    padding-left: 10px;
+    margin-top: 77vh;
     float: left;
     display: flex;
     flex-direction: column;
@@ -41,7 +46,7 @@
 }
 
 .title-font {
-    font-family: 'Limelight';
+    font-family: $headlines;
     font-size: 2.5em;
     position: relative;
     float: left;
@@ -49,7 +54,7 @@
     margin: 0;
 }
 .lesser-font {
-    font-family: 'Limelight';
+    font-family: $headlines;
     font-size: 20px;
     float: left;
     color: white;

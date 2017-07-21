@@ -29,7 +29,7 @@ class App extends Component {
   handleSubmit(e) {
       e.preventDefault();
       // this.handleDisplay()
-      axios.get(`https://content.guardianapis.com/search?q=${this.state.userInput}&api-key=${apiKey}`)
+      axios.get (`http://content.guardianapis.com/search?page-size=200&order-by=newest&q=${this.state.userInput}&api-key=${apiKey}`)
       .then(response => {
         // console.log("response data", response); 
         // console.log("what i want", response.data.response.results)    

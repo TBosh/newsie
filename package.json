@@ -4,11 +4,13 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.2",
+    "moment": "^2.18.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "node-sass-chokidar": "0.0.3",
     "react-scripts": "1.0.7"
   },
@@ -19,6 +21,7 @@
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "homepage": "https://github.com/TBosh/newsie"
+    "homepage": "https://github.com/TBosh/newsie",
+    "deploy": "npm run build&&gh-pages -d build"
   }
 }

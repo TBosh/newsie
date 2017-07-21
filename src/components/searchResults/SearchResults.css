@@ -1,15 +1,4 @@
-#waterwheel-carousel {
-  width:350px;
-  height:600px;
-  position:relative;
-  clear:both;
-  overflow:hidden;
-  margin: 0 auto;
-}
-#waterwheel-carousel img {
-  visibility:hidden; /* hide images until carousel positions them */
-  cursor:pointer;
-}
+
 .results-parent {
     overflow: hidden;
     align-content: center;

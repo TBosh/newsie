@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:400,700');
 
+
 .tile-holder {
-    align-content: center;
-    justify-content: center;
+    float: left;
 }
 
 .article-box {
-    width: inherit;
-    height: inherit;
+    display: inline-block;
     word-break: break-word;
-    float: left;
     background: #f1f1f1;
     color: black;
     padding-bottom: 10px;
@@ -24,4 +22,16 @@
     font-family: 'Spectral', serif;
     font-style: bold;
     font-size: 20px;
+}
+
+.animator {
+    -webkit-animation: mymove 1s;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation: mymove 3s;
+    animation-fill-mode: forward;
+}
+
+@keyframes mymove {
+    from {top: 75vh;}
+    to {top: 100px;}
 }
